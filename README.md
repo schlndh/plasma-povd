@@ -1,4 +1,6 @@
-**The per-output virtual desktops were merged upstream. They will be a part of Plasma 6.7 due to be released on Tue 2026-06-16.** 🎉
+**Plasma 6.7 with per-output virtual desktops was released on 2026-06-16.** 🎉 ArchLinux should get it within the next few days after that. If you installed the `...-povd` AUR packages, you'll have to uninstall them before updating to Plasma 6.7. Run `sudo pacman -Syu kwin plasma-workspace plasma-desktop plasma-x11-session` and accept the removal of the `-povd` packages. You can skip `plasma-x11-session` if you didn't have it installed before.
+
+-------------------------------------
 
 This repo contains instructions for installing Plasma AUR packages patched with support for per-output virtual desktops. The MRs target Plasma 6.7 which is now in development. The AUR packages backport the changes to Plasma 6.6.
 
